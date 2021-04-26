@@ -46,7 +46,7 @@ img{
     height: 20px;
 }
 
-.sconto50{
+.sconto50 , .sconto30{
     /* position: absolute;
     bottom: 10px;
     left: 0px; */
@@ -60,12 +60,13 @@ img{
 
 }
 
+
 .sostenibile{
     /* position: absolute;
     bottom: 10px;
     left: 20px; */
     display: inline-block;
-    background-color: blue;
+    background-color: green;
     font-size: 18px;
     line-height: 20px;
     padding: 1px 7px; /*il paddiiiiinnnng*/
