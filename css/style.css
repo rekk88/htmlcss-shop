@@ -40,11 +40,11 @@
 
 .box.debug{
     height: 300px;
-    width: calc(100% / 3);
+    width: calc((100% - 60px) / 3); /*[100% - (margin-sx-dx * 6 ) ] / 3 */
     background-color: darkblue;
     border: 1px solid black;
     float: left;
-    
+    margin: 10px 10px;
 }
 
 /* .text.debug{
