@@ -83,6 +83,28 @@ img{
     padding: 2px 10px;
 }
 
+
+.levi{
+    line-height: 16px;
+    height: 16px;
+}
+.trademark{
+    font-size: 12px;
+    vertical-align: text-top;
+}
+
+.descrizione{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.prezzo.red{
+    color:red;
+}
+span.maiuscola{
+    text-transform: uppercase;
+}
+
+
 /*debug*/
 
 .debug.container{
@@ -102,7 +124,10 @@ img{
 }
 
 .text.debug{
-    height: 50px;
+    /* height: 50px; */
     background-color: yellow;
+    width: 100%;
+    /* border: 1px solid black; */
     /* margin-top: -4px; */
 } 
+
