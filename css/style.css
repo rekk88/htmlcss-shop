@@ -39,6 +39,17 @@ img{
     height: 100%;
 }
 
+/*hooooooooooverrrrrr !!!!*/
+.effetto-hover{
+    display: none;
+}
+
+.box:hover .img-a{
+    display: none;
+}
+.box:hover .effetto-hover{
+    display: block;
+}
 
 .sconto50 , .sconto30 , .sostenibile{
     padding: 1px 7px;
