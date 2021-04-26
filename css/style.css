@@ -31,6 +31,7 @@
 }
 .img-container{
     height: 600px;
+    position: relative;
 }
 
 img{
@@ -38,7 +39,39 @@ img{
 }
 
 
+.sconti{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    height: 20px;
+}
 
+.sconto50{
+    /* position: absolute;
+    bottom: 10px;
+    left: 0px; */
+    background-color: red;
+    padding: 1px 7px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    line-height: 20px;
+
+}
+
+.sostenibile{
+    /* position: absolute;
+    bottom: 10px;
+    left: 20px; */
+    display: inline-block;
+    background-color: blue;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 1px 7px; /*il paddiiiiinnnng*/
+    color: white;
+
+}
 
 
 
@@ -65,7 +98,3 @@ img{
     background-color: yellow;
     /* margin-top: -4px; */
 } 
-
-.test{
-    width: min-content;
-}
