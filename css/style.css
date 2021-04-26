@@ -14,12 +14,12 @@
 /*body*/
 
 .container{
-    width: 1170px;
+    /* width: 1170px; */
     margin: 0 auto; /*centratura orizzontale*/
 }
 
 .box{
-    width: calc((100% - 60px) / 3); /*[100% - (margin-sx-dx * 6 ) ] / 3 */
+    /* width: calc((100% - 60px) / 3); [100% - (margin-sx-dx * 6 ) ] / 3 */
     float: left;
     margin: 10px 10px;
 }
@@ -41,9 +41,11 @@
 
     
 }
-
+img{
+    height: 600px;
+}
 .box.debug{
-    height: 300px;
+    /* height: 300px; */
     /* width: calc((100% - 60px) / 3); [100% - (margin-sx-dx * 6 ) ] / 3 */
     background-color: darkblue;
     border: 1px solid black;
