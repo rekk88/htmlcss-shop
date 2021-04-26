@@ -4,19 +4,50 @@
     margin: 0;
 }
 
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+/*body*/
+
+.container{
+    width: 1170px;
+    margin: 0 auto; /*centratura orizzontale*/
+}
+
+
+
+
+
+
+
+
+
+
+
 /*debug*/
 
 .debug.container{
     border: 1px solid black;
     background-color: coral;
-    height: 800px;
+    /* height: 800px; */
+
     
 }
 
 .box.debug{
     height: 300px;
-    width: 200px;
+    width: calc(100% / 3);
     background-color: darkblue;
     border: 1px solid black;
+    float: left;
+    
 }
 
+/* .text.debug{
+    height: 50px;
+    background-color: yellow;
+} */
