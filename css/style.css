@@ -17,6 +17,7 @@
     /* width: 1170px; */
     margin: 0 auto; /*centratura orizzontale*/
     width: max-content;
+    font-family: 'Cabin', sans-serif;
 }
 
 .box{
