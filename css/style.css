@@ -40,16 +40,18 @@ img{
 }
 
 /*hooooooooooverrrrrr !!!!*/
-.effetto-hover{
+.img-b{
     display: none;
 }
 
-.box:hover .img-a{
+.box:hover .img-a{ /* l'immagine di default si nasconde*/
     display: none;
 }
-.box:hover .effetto-hover{
-    display: block;
+.box:hover .img-b{
+    display: block; /*l'immagine nascosta esce allo scoperto*/
 }
+
+
 
 .sconto50 , .sconto30 , .sostenibile{
     padding: 1px 7px;
