@@ -55,7 +55,12 @@ img{
     border: 1px solid black;
 }
 
-/* .text.debug{
+.text.debug{
     height: 50px;
     background-color: yellow;
-} */
+    margin-top: -4px;
+} 
+
+.test{
+    width: min-content;
+}
