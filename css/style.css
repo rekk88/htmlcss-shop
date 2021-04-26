@@ -63,7 +63,7 @@ img{
 .text.debug{
     height: 50px;
     background-color: yellow;
-    margin-top: -4px;
+    /* margin-top: -4px; */
 } 
 
 .test{
