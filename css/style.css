@@ -29,6 +29,13 @@
 .riga{
     margin: 0px auto;
 }
+.img-container{
+    height: 600px;
+}
+
+img{
+    height: 100%;
+}
 
 
 
@@ -45,9 +52,7 @@
 
     
 }
-img{
-    height: 600px;
-}
+
 .box.debug{
     /* height: 300px; */
     /* width: calc((100% - 60px) / 3); [100% - (margin-sx-dx * 6 ) ] / 3 */
